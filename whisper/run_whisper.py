@@ -20,5 +20,5 @@ result = model.transcribe(audio_path, language="ja")
 print("----- 文字起こし結果 -----")
 print(result["text"])
 
-if name == “main”:
+if name == "main":
 main()
