@@ -2,8 +2,8 @@ import sys
 import whisper
 
 def main():
-if len(sys.argv) < 2:
-print("使い方: python run_whisper.py 音声ファイルパス")
+　　if len(sys.argv) < 2:
+　　　　print("使い方: python run_whisper.py 音声ファイルパス")
 sys.exit(1)
 
 audio_path = sys.argv[1]
