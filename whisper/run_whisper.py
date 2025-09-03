@@ -21,4 +21,4 @@ print("----- 文字起こし結果 -----")
 print(result["text"])
 
 if name == "main":
-main()
+ main()
